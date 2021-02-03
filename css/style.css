@@ -1,0 +1,83 @@
+.navbar-brand {
+  letter-spacing: -5px;
+  color: #F9855B;
+  font-weight: 1000;
+  font-size: 2.5em;
+}
+
+.orange {
+  color: #F9855B;
+}
+
+.items {
+  display: flex;
+  float:right;
+  font: 400;
+  font-size: 1.2em;
+  Line-height: 24px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Poppins;
+}
+
+.items a {
+  color: rgb(39, 30, 30);
+  text-decoration: none;
+}
+
+.items a:hover {
+  color: rgb(50, 112, 119);
+}
+
+.font {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  text-align: left;
+}
+
+.information {
+  max-width: 50%;
+}
+
+a {
+  color: black;
+}
+
+.description {
+  color: #727274;
+}
+
+.fab {
+  font-size: 20px;
+}
+
+.h2 {
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section2 {
+  margin-top: 7em;
+}
+
+.h1 {
+  font-family: Poppins;
+font-size: 68px;
+font-style: normal;
+font-weight: 800;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.projects {
+  max-width: 45%;
+  height: 20em;
+}
