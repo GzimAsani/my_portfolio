@@ -1,3 +1,7 @@
+body {
+  font-family: Poppins
+}
+
 .navbar-brand {
   letter-spacing: -5px;
   color: #F9855B;
@@ -63,6 +67,16 @@ a {
   text-align: left;
 }
 
+.footer-h2 {
+  color: white;
+  font-weight: 800;
+}
+
+.footer-p {
+  width: 50%;
+  color:white;
+}
+
 .section2 {
   margin-top: 7em;
 }
@@ -78,6 +92,106 @@ text-align: left;
 }
 
 .projects {
-  max-width: 45%;
+  width: 100%;
   height: 20em;
+  border: 1px solid black;
+}
+
+.second-projects {
+  width: 100%;
+  height: 12em;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  color: rgb(228, 206, 206);
+  background-color: #f58d68;
+}
+
+.btn {
+  color: white;
+  background-color: #F9855B;
+  border-color:  #F9855B;
+  padding: 8px 40px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.projects-container {
+  display: flex;
+}
+
+.languages-btn {
+  background-color: #6b6565;
+  color: white;
+  border-color: #6b6565;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.languages-btn:hover {
+  color: white;
+  background-color: #F9855B;
+  border-color: #F9855B
+}
+
+.work-title {
+  position: absolute;
+  color:white;
+  bottom: 10px;
+  font-weight: 800;
+  left: 100px;
+  border: 1px solid black;
+  background-color: #6b6565;
+}
+
+.work-title2 {
+  position: absolute;
+  color: white;
+  bottom: 12px;
+  right: 480px;
+  font-weight: 800;
+  border: 1px solid black;
+  background-color: #6b6565;
+}
+
+.about-me {
+  width: 40%;
+  margin-right: 10em;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.footer {
+  background: #F9855B;
+  padding-top: 100px;
+}
+
+#message {
+  width: 60%;
+  height: 18em;
+}
+
+#email {
+  width: 28.5%;
+  height: 3em;
+}
+
+#username {
+  width: 28.5%;
+  height: 3em;
+  margin-right: 2em;
+}
+
+.submit-button {
+  width: 60%;
+  background-color: black;
+  color: white;
+  height: 3em;
+}
+
+.submit-button:hover {
+  background-color: rgb(37, 35, 35);
 }
