@@ -315,7 +315,81 @@ a {
 
   .about-me {
     width: 100%;
-  
+  }
+
+  #email {
+    width: 27.5%;
+    height: 2.8em;
   }
   
+  #username {
+    width: 27.5%;
+    height: 2.8em;
+    margin-right: 2em;
+  }
+
+  #message {
+    width: 60%;
+    height: 15em;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  
+  .information {
+   max-width: 100%;
+  }
+
+  .display-block {
+    margin-right: 150px;
+    
+  }
+
+  .fab {
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .second-projects {
+    width: 100%;
+  }
+
+  .work-title {
+    width: 100%;
+  }
+
+  .work-title2 {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .footer-p {
+    width: 82%;
+    color:white;
+  }
+
+  #email {
+    width: 25.5%;
+    height: 2.8em;
+  }
+  
+  #username {
+    width: 25.5%;
+    height: 2.8em;
+    margin-right: 2em;
+  }
+
+  #message {
+    width: 60%;
+    height: 15em;
+  }
+  
+
 }
