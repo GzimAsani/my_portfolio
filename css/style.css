@@ -2,6 +2,10 @@ body {
   font-family: Poppins
 }
 
+.main-container {
+  padding: 0 86px;
+}
+
 .navbar-brand {
   letter-spacing: -5px;
   color: #F9855B;
@@ -11,6 +15,10 @@ body {
 
 .orange {
   color: #F9855B;
+}
+
+.white  {
+  color: white;
 }
 
 .items {
@@ -83,12 +91,12 @@ a {
 
 .h1 {
   font-family: Poppins;
-font-size: 68px;
-font-style: normal;
-font-weight: 800;
-line-height: 72px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .projects {
@@ -99,7 +107,7 @@ text-align: left;
 
 .second-projects {
   width: 100%;
-  height: 12em;
+  height: 20em;
   border: 1px solid black;
 }
 
@@ -115,6 +123,8 @@ text-align: left;
   padding: 8px 40px;
   margin-top: 5px;
   width: 100%;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .projects-container {
@@ -122,9 +132,9 @@ text-align: left;
 }
 
 .languages-btn {
-  background-color: #6b6565;
+  background-color: #423B39;
   color: white;
-  border-color: #6b6565;
+  border-color: #423B39;
   border-radius: 5px;
   margin-top: 5px;
 }
@@ -136,23 +146,20 @@ text-align: left;
 }
 
 .work-title {
-  position: absolute;
   color:white;
-  bottom: 10px;
   font-weight: 800;
   left: 100px;
-  border: 1px solid black;
-  background-color: #6b6565;
+  padding: 5px;
+  background-color: #F9855B;
 }
 
 .work-title2 {
-  position: absolute;
   color: white;
   bottom: 12px;
   right: 480px;
   font-weight: 800;
-  border: 1px solid black;
-  background-color: #6b6565;
+  padding: 5px;
+  background-color: #F9855B;
 }
 
 .about-me {
@@ -190,8 +197,59 @@ text-align: left;
   background-color: black;
   color: white;
   height: 3em;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .submit-button:hover {
   background-color: rgb(37, 35, 35);
+}
+
+.last-div {
+  color: white;
+  font-size: 30px;
+}
+
+.hr {
+  width: 60%;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Under 768px */
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 2.0em;
+  }
+
+  .information {
+    max-width: 50%;
+  }
+
+  .main-container {
+    padding: 0 46px;
+  }
+
+  .items {
+    font: 400;
+    font-size: 0.8em;
+    Line-height: 24px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Poppins;
+  }
+
+  .projects-container {
+    display: block;
+  }
 }

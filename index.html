@@ -12,14 +12,14 @@
     <title>Document</title>
   </head>
   <body >
-    <div class="container">
+    <div class="main-container">
       <nav>
         <div class="pt-1">
           <h2 class="navbar-brand">GZ</h2>
           <div class="items mt-4">
-            <a class="mr-4 nav-item">Portfolio</a>
-            <a class="mr-4">About</a>
-            <a class="">Contact</a>
+            <a href="#portfolio" class="mr-4 nav-item">Portfolio</a>
+            <a href="#about" class="mr-4">About</a>
+            <a href="#contact" class="">Contact</a>
           </div>
         </div>
       </nav>
@@ -37,47 +37,58 @@
         </div>
       </section>
       <section class="section2">
-        <h2 class="h2">My projects</h2>
+        <h2 class="h2", id="portfolio" >My projects</h2>
         <div class="projects-container">
           <div class= "mr-3">
             <h3 class="work-title">Alpha Blog</h3>
-            <img class='projects mr-3' src='assets/pic1.png' alt='my-projects'>
+            <img class='projects mr-3' src='assets/laptop1.png' alt='my-projects'>
             <div>
               <button class="languages-btn">HTML & CSS </button>
               <button class="languages-btn">RAILS </button>
               <button class="languages-btn">JAVASCRIPT </button>
             </div>
-            <button class="btn">See the project</button>
+            <button class="btn"><a href="https://github.com/GzimAsani/My_Blog" class="links">See the project</a></button>
           </div>
           <div>
             <h3 class="work-title2">Let's chat!</h3>
-            <img class='projects m3-5' src='assets/pic22.png' alt='my-projects'>
+            <img class='projects m3-5' src='assets/lap3.png' alt='my-projects'>
             <div>
               <button class="languages-btn">HTML</button>
               <button class="languages-btn">SEMANTIC UI</button>
               <button class="languages-btn">RAILS </button>
               <button class="languages-btn">JAVASCRIPT </button>
             </div>
-            <button class="btn">See the project</button>
+            <button class="btn"><a href="https://github.com/GzimAsani/message_me" class="links">See the project</a></button>
           </div>
         </div>
         <div class="projects-container mt-5">
-          <div>
-            <img class='second-projects mr-3' src='assets/pic1.png' alt='my-projects'>
+          <div class="mr-4">
+            <h3 class="work-title2">Lifestyle app!</h3>
+            <img class='second-projects mr3' src='assets/lastpic.png' alt='my-projects'>
+            <div>
+              <button class="languages-btn">HTML</button>
+              <button class="languages-btn">Bootstrap</button>
+              <button class="languages-btn">RAILS </button>
+              <button class="languages-btn">PostgreSQL </button>
+            </div>
+            <button class="btn"><a href="https://github.com/GzimAsani/Lifestyle-e" class="links">See the project</a></button>
           </div>
           <div>
-            <img class='second-projects mr-3' src='assets/pic1.png' alt='my-projects'>
-          </div>
-          <div>
-            <img class='second-projects mr-3' src='assets/pic1.png' alt='my-projects'>
+            <h3 class="work-title2">Javascript linters!</h3>
+            <img class='second-projects mr-3' src='assets/laptop0.png' alt='my-projects'>
+            <div>
+              <button class="languages-btn">BASH</button>
+            </div>
+            <button class="btn"><a href="https://github.com/GzimAsani/Linters-Ruby-Capstone-Project" class="links">See the project</a></button>
           </div>
         </div>
       </section>
       <section class="section2">
         <div class="d-flex">
           <div class="about-me">
-            <h2 class="h2">About me</h2>
+            <h2 class="h2" id="about">About me</h2>
             <p class="description">In three sentences describe who you are as a proffessional. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.</p>
+            <button class="btn"><a href="https://docs.google.com/document/d/1XyqtYGXxylHq1EsXSg0mxD7qeHKFZ-Vvyd0RlJDxnLU/export?format=pdf" class="links">Get my resume</a></button>
           </div>
           <div class="d-flex flex-column">
             <div>
@@ -100,10 +111,10 @@
       </section>
     </div>
   </body>
-  <section class="footer">
+  <section class="footer" id="contact">
     <div class="pb-5">
       <div class="text-center">
-        <h2 class="footer-h2">Interested in collaborating?</h2>
+        <h2 class="footer-h2" >Interested in collaborating?</h2>
         <p class="footer-p container mb-5 mt-4">If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.</p>
       </div>
       <form name="contact" method="post" action="about.html">
@@ -118,6 +129,14 @@
           <button type="submit" value="Submit" class="submit-button mt-4"> Get in touch </button>
         </div>
       </form>
+      <div class="text-center mt-5 description last-div">
+        <p>gzimasanni@gmail.com <a href="https://github.com/GzimAsani"><i class="fab fa-github ml-2 mr-3 white"></i></a>
+          <a href="https://www.linkedin.com/in/gzim-asani/"><i class="fab fa-linkedin-in mr-3 white"></i></a>
+          <a href="https://twitter.com/GzimAsani2"><i class="fab fa-twitter mr-3 white"></i></a>
+          <a href="https://medium.com/@gzimasaniasani"><i class="fab fa-medium mr-3 white"></i></a>
+          </p>
+          <hr class="hr white">
+      </div>
     </div>
   </section>
 </html>
