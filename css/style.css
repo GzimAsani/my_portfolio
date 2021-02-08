@@ -2,6 +2,10 @@ body {
   font-family: Poppins
 }
 
+.display {
+  display: flex;
+}
+
 .main-container {
   padding: 0 86px;
 }
@@ -226,7 +230,7 @@ a {
 
 /* Under 768px */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .navbar-brand {
     font-size: 2.0em;
   }
@@ -252,4 +256,66 @@ a {
   .projects-container {
     display: block;
   }
+
+  .projects {
+    width: 85%;
+    height: 20em;
+    border: 1px solid black;
+  }
+
+  .work-title {
+    text-align: center;
+    width: 85%;
+    color:white;
+    font-weight: 800;
+    left: 100px;
+    padding: 5px;
+    background-color: #F9855B;
+  }
+  
+  .work-title2 {
+    text-align: center;
+    width: 85%;
+    color: white;
+    bottom: 12px;
+    font-weight: 800;
+    padding: 5px;
+    background-color: #F9855B;
+  }
+
+  .work-title-md {
+    width: 89%;
+  }
+
+  .btn {
+    color: white;
+    background-color: #F9855B;
+    border-color:  #F9855B;
+    padding: 8px 40px;
+    margin-top: 5px;
+    width: 85%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+
+  .btn-md {
+    width: 89%;
+  }
+
+  .second-projects {
+    width: 89%;
+    height: 20em;
+    border: 1px solid black;
+  }
+
+  .display {
+    display: block;
+  }
+
+  .about-me {
+    width: 100%;
+  
+  }
+  
 }
