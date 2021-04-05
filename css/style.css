@@ -110,10 +110,12 @@ a {
 }
 
 .second-projects {
-  width: 100%;
+  width: 35em;
   height: 20em;
   border: 1px solid black;
 }
+
+
 
 .btn:hover {
   color: rgb(228, 206, 206);
