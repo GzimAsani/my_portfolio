@@ -7,7 +7,7 @@ body {
 }
 
 .main-container {
-  padding: 0 6em;
+  padding: 0 86px;
 }
 
 .navbar-brand {
@@ -104,7 +104,7 @@ a {
 }
 
 .projects {
-  width: 100%;
+  width: 35em;
   height: 20em;
   border: 1px solid black;
 }
